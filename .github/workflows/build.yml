@@ -18,7 +18,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Cache Maven packages
+      - name: Cache Maven package
         uses: actions/cache@v1
         with:
           path: ~/.m2
